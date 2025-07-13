@@ -1,0 +1,443 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.main1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.main1 .left {
+  height: 100%;
+  width: 30%;
+}
+
+.main1 .right {
+  height: 80%;
+  width: 50%;
+  background-image: url("https://images.unsplash.com/photo-1621274220348-41dc235ff439?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: top;
+  background-size: cover;
+}
+
+.main1 .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 20px 25px 0px 25px;
+}
+
+.overlay .nav {
+  display: flex;
+  gap: 8rem;
+}
+
+.nav .navlinks {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav .navlinks a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
+.overlay .down {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.down .downLeft {
+  width: 10%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.downLeft .leftTop {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.downLeft .leftTop p {
+  font-size: 10px;
+  transform: rotate(-90deg);
+}
+
+.downLeft .leftBottom {
+  height: 30%;
+  width: 2px;
+  background-color: rgb(206, 206, 206);
+  align-self: center;
+}
+
+.down .downMiddle {
+  width: 80%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.downMiddle .middleTop h1 {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.downMiddle .middleTop p {
+  font-size: 10px;
+  width: 35%;
+  margin-bottom: 15px;
+  line-height: 20px;
+}
+
+#btn {
+  padding: 5px 25px;
+  background-color: black;
+  color: white;
+  font-weight: 100;
+}
+
+.downMiddle .middleBottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.downMiddle .middleBottom .icons-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.middleBottom .middleRight {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.middleBottom .middleRight .line {
+  height: 2px;
+  width: 80%;
+  background-color: rgb(202, 202, 202);
+}
+
+.middleBottom .middleRight p {
+  font-size: 10px;
+}
+
+.down .downRight {
+  width: 10%;
+  height: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.secondPage{
+    width: 100%;
+    height: 80%;
+    /* background-color: red; */
+    display: flex;
+    position: relative;
+    margin-top: 4rem;
+}
+.secondPage .leftpart{
+    width: 60%;
+    height: 80%;
+    background-image: url("https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/plants-blog/1-D.jpg");
+    background-position: center ;
+    background-size: cover;
+}
+.secondPage .rightpart{
+    width: 60%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    position: absolute;
+    top: 20%;
+    right: 0;
+    /* margin: 60px; */
+
+    
+}
+.container1{
+    padding: 50px;
+}
+.container1 h1{
+    margin-bottom: 20px;
+}
+.container1 p{
+    margin-bottom: 20px;
+    width: 40%;
+    height: 40%;
+}
+.container1 button{
+    padding: 10px;
+    border: none;
+    text-decoration: underline;
+    
+}.downRight2{
+    font-size: large;
+    margin-right: 50px;
+        font-size:20px ;
+
+}
+.thirdpage{
+    width: 100%;
+    height: 90%;
+    display: flex;
+   
+}
+.thirdpage .leftside{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.thirdpage .leftside .visit{
+    height: 90%;
+    width: 80%;
+    padding-top: 5%;
+    padding-left: 20%;
+}
+#con{
+    margin-bottom:5px ;
+
+}
+.thirdpage .leftside .visit h5{
+    margin-bottom:5px ;
+}
+.thirdpage .leftside .visit p{
+    margin-bottom: 30px;
+    width: 25%;
+}
+.thirdpage .leftside .visit h1{
+    margin-bottom: 30px;
+
+}
+.thirdpage .leftside .visit button{
+    padding: 20px 30px;
+    font-size: 15px;
+    border: 3px solid black;
+    border-radius: 7px;
+    
+}
+.thirdpage .rightside{
+    width: 50%;
+    height: 100%;
+    background-image: url("https://i.pinimg.com/1200x/1a/98/3b/1a983bd04a778d0ec69d75f54078247b.jpg");
+}
+.forthpage{
+    width: 80%;
+    height: 80%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:5rem auto;
+    
+    
+}
+.forthpage .img{
+    height: 100%;
+    width: 80%;
+    background-image: url("https://i1.pickpik.com/photos/339/511/699/flower-bloom-pink-stem-preview.jpg");
+    background-size: cover;
+    background-position: top ;
+    
+}
+.forthpage .topleft{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40%;
+    width: 40%;
+    background-color: white;
+
+}
+.topleft P{
+    margin-top: 2REM;
+    width: 40%;
+}
+.topleft button{
+    margin-top: 2REM;
+    padding: 1rem;
+    border: none;
+    text-decoration: underline;
+    background-color: white;
+}
+.forthpage .bottomright{
+        position: absolute;
+        /* text-decoration: underline;
+        border:none  */
+
+}
+.bottomright {
+width: 10%;
+height: 10%;
+background-color: white;
+/* padding: 30px 30px; */
+position: absolute;
+right: 10%;
+bottom: 0;
+font-weight: bold;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.fifth {
+    width: 100%;
+    height: 100%;
+    /* background-color: rebeccapurple; */
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:5rem auto;
+    padding: 5rem
+
+}
+.fifth .leftimg{
+    padding: 5rem;
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    background-image: url("https://c1.wallpaperflare.com/preview/599/555/601/plant-glass-bottle-hand-holding.jpg");
+    /* background-position: top ; */
+    background-size:cover;
+}
+.fifth .rightbox1{
+    width: 80%;
+    height: 100%;
+    /* background-color: yellow; */
+    padding: 5rem;
+    
+}
+.fifth .rightbox1 h1{
+    margin-bottom: 25px;
+}
+ .para1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    width: 70%;
+    height: 50%;
+    margin-top: 3rem;
+}footer {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 60px 40px;
+  gap: 40px;
+  row-gap: 50px;
+}
+
+
+.footer-left h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: nowrap;
+  margin-bottom: 20px;
+}
+
+.footer-form input[type="email"] {
+  flex: 1;
+  padding: 10px 15px;
+  border: 1px solid white;
+  border-radius: 4px;
+  outline: none;
+  background-color: black;
+  font-size: 14px;
+}
+
+.footer-form input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.footer-form input[type="submit"]:hover {
+  background-color: #ddd;
+}
+
+.footer-left p {
+  font-size: 15px;
+  color: #aaa;
+}
+
+
+.footer-middle-left h2,
+.footer-middle-right h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.footer-middle-left a,
+.footer-middle-right a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-middle-left a:hover,
+.footer-middle-right a:hover {
+  color: #fff;
+}
+
+
+.footer-right {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+.footer-right i {
+  color: #ccc;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.footer-right i:hover {
+  color: #fff;
+}
